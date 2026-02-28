@@ -18,6 +18,8 @@ Aqui estão definidos:
 - Diagrama ER
 
 Código: 
+'''mermaid
+
 ---
 config:
   theme: neo-dark
@@ -116,4 +118,4 @@ erDiagram
     Servico ||--o{ Atendimento_servico : "1:N"
 
     Atendimento ||--o| Pagamento : "1:1"
-    
+'''
