@@ -18,8 +18,8 @@ Aqui estão definidos:
 - Diagrama ER
 
 Código: 
-'''mermaid
 
+```mermaid
 ---
 config:
   theme: neo-dark
@@ -97,9 +97,9 @@ erDiagram
         string Status
     }
 
-    Pessoa ||--o| Cliente : "1:1 "
-    Pessoa ||--o| Funcionario : "1:1 "
-    Funcionario ||--o| Veterinario : "1:1 "
+    Pessoa ||--o| Cliente : "1:1"
+    Pessoa ||--o| Funcionario : "1:1"
+    Funcionario ||--o| Veterinario : "1:1"
     
     Veterinario ||--o{ Veterinario_especialidade : "1:N"
     Especialidade ||--o{ Veterinario_especialidade : "1:N"
@@ -114,8 +114,8 @@ erDiagram
     Atendimento ||--o{ Atendimento_produto : "1:N"
     Produto ||--o{ Atendimento_produto : "1:N"
     
-    Atendimento ||--o{ Atendimento_produto : "1:N"
+    Atendimento ||--o{ Atendimento_servico : "1:N"
     Servico ||--o{ Atendimento_servico : "1:N"
 
     Atendimento ||--o| Pagamento : "1:1"
-'''
+```
