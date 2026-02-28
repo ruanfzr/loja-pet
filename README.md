@@ -17,7 +17,6 @@ Aqui estão definidos:
 - Tabelas associativas
 - Diagrama ER
 
-Código: 
 
 ```mermaid
 ---
